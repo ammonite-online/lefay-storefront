@@ -1,8 +1,10 @@
 import { FC } from 'react'
-import { Structure } from 'Structure/'
+import { Page } from 'Structure/Page'
 
 const Home: FC = () => (
-    <Structure title="Studio le Fay - shop">Hello world</Structure>
+    <Page title="Studio le fay - shop">
+        <h1>Hello world</h1>
+    </Page>
 )
 
 export default Home

@@ -1,0 +1,26 @@
+.primary {
+    background-color: var(--palette-primary);
+    color: var(--palette-greyA);
+}
+
+.primary path {
+    fill: var(--palette-greyA);
+}
+
+.secondary {
+    background-color: var(--palette-greyA);
+    color: var(--palette-greyZ);
+    fill: var(--palette-greyZ);
+}
+
+.secondary path {
+    fill: var(--palette-greyZ);
+}
+
+.secondary[data-selected='true'] {
+    color: var(--palette-primary);
+}
+
+.secondary[data-selected='true'] path {
+    fill: var(--palette-primary);
+}

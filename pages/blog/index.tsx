@@ -1,8 +1,11 @@
+import Head from 'next/head'
 import { FC } from 'react'
-import { Structure } from 'Structure/'
+import { Page } from 'Structure/Page'
 
 const Blog: FC = () => (
-    <Structure title="Studio le Fay - blog">Hello Blog</Structure>
+    <Page title="Studio le fay - blog">
+        <h1>Hello blog</h1>
+    </Page>
 )
 
 export default Blog

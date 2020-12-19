@@ -1,0 +1,23 @@
+.button-link {
+    position: relative;
+}
+
+.button-link:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    pointer-events: none;
+    width: var(--spacing-02);
+    height: var(--spacing-02);
+    background-color: var(--palette-primary);
+    border-radius: 50%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+}
+
+.button-link[data-selected='true']:after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(50%);
+}

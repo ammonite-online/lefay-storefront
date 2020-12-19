@@ -1,0 +1,38 @@
+.button {
+    display: inline-flex;
+    width: auto;
+    padding: 0 var(--spacing-04);
+    min-height: var(--spacing-08);
+    line-height: 1.5em;
+    cursor: pointer;
+    border-radius: var(--spacing-02);
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--type-weight-bold);
+    background-color: var(--palette-greyA);
+    color: var(--palette-greyZ);
+    column-gap: var(--spacing-03);
+    transition: filter 0.3s ease, color 0.3s ease;
+}
+
+.button path {
+    transition: fill 0.3s ease;
+}
+
+@media (hover: hover) {
+    .button:hover {
+        filter: brightness(95%);
+    }
+}
+
+.button:active {
+    filter: brightness(90%);
+}
+
+.button[data-selected='true'] {
+    color: var(--palette-primary);
+}
+
+.button[data-selected='true'] path {
+    fill: var(--palette-primary);
+}
