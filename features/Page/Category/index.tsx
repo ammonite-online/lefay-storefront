@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { fireQuery } from 'mods/Sanity'
-import { Page } from 'blummington/Page'
+import { Page } from 'structure/Page'
 import { IProps, TCategory } from './types'
 
 export const Category: FC<IProps> = ({ category }) => (

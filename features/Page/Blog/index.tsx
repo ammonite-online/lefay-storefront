@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Page } from 'blummington/Page'
+import { Page } from 'structure/Page'
 
 export const Blog: FC = () => (
     <Page title="Studio le fay - blog">

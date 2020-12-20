@@ -3,7 +3,7 @@ import 'styles/typography.css'
 import 'styles/palette.css'
 import 'styles/principles.css'
 import Head from 'next/head'
-import { Structure } from 'blummington'
+import { Structure } from 'structure'
 import { SnipcartInit } from 'mods/Snipcart'
 
 const Application = ({ Component, pageProps }) => {
