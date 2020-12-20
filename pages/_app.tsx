@@ -3,11 +3,12 @@ import 'styles/typography.css'
 import 'styles/palette.css'
 import 'styles/principles.css'
 import Head from 'next/head'
-import { Structure } from 'Structure/'
+import { Structure } from 'blummington'
+import { SnipcartInit } from 'mods/Snipcart'
 
 const Application = ({ Component, pageProps }) => {
     return (
-        <>
+        <Structure>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
                 <link
@@ -32,10 +33,9 @@ const Application = ({ Component, pageProps }) => {
                     crossOrigin="true"
                 />
             </Head>
-            <Structure>
-                <Component {...pageProps} />
-            </Structure>
-        </>
+            <Component {...pageProps} />
+            <SnipcartInit />
+        </Structure>
     )
 }
 

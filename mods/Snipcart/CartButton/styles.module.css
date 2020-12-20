@@ -1,0 +1,13 @@
+.cart-button {
+    position: relative;
+}
+
+.item-count {
+    display: block;
+    position: absolute;
+    top: var(--spacing-01);
+    right: var(--spacing-01);
+    line-height: 1em;
+    font-size: var(--type-scale-01);
+    color: var(--palette-primary);
+}

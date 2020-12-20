@@ -14,7 +14,7 @@ const Button: FC<IProps> = ({
 }) => (
     <button
         className={`${snippets.button}  ${styles[kind]} ${className}`}
-        onPointerDown={onPress}
+        onPointerDown={() => onPress && onPress()}
         data-selected={selected}
     >
         {icon != null && <Icon name={icon} />}

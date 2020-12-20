@@ -6,7 +6,7 @@ export enum ButtonKind {
 }
 
 export interface IProps {
-    onPress: () => void
+    onPress?: () => void
     className?: string
     kind?: ButtonKind
     text?: string
