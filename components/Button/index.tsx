@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import snippets from 'styles/snippets.module.css'
+import snippets from 'styles/snippets/button.module.css'
 import { Icon, IconName } from 'components/Icon'
 import { IProps, ButtonKind } from './types'
 import styles from './styles.module.css'

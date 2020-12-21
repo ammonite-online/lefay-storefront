@@ -1,0 +1,23 @@
+.config-panel {
+    width: 30rem;
+    max-width: 50%;
+    height: calc(100vh - var(--spacing-10));
+    position: sticky;
+    top: var(--spacing-10);
+    /* background-color: var(--palette-greyB); */
+    padding: var(--spacing-09);
+    overflow: scroll;
+}
+
+.config-panel > section {
+    box-shadow: inset 0 0 1px 0 red;
+    height: 40vh;
+    margin-bottom: var(--spacing-07);
+}
+
+.config-panel > section > h3 {
+    font-size: var(--type-scale-02);
+    font-weight: var(--type-weight-bold);
+    line-height: 1.5em;
+    padding-bottom: var(--spacing-04);
+}

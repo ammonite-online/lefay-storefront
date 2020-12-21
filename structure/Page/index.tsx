@@ -3,13 +3,13 @@ import { FC } from 'react'
 import styles from './styles.module.css'
 import { IProps } from './types'
 
-export const Page: FC<IProps> = ({ children, title }) => {
+export const Page: FC<IProps> = ({ children, title, className = '' }) => {
     return (
         <>
             <Head>
                 <title>{title}</title>
             </Head>
-            <main className={styles.main}>{children}</main>
+            <main className={`${styles.main} ${className}`}>{children}</main>
         </>
     )
 }

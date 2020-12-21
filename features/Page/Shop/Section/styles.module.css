@@ -1,0 +1,24 @@
+.shop-section {
+    padding: var(--spacing-09);
+}
+
+.shop-section > header {
+    margin-bottom: var(--spacing-07);
+}
+
+.shop-section > header > h2 {
+    margin-bottom: var(--spacing-04);
+}
+
+.shop-section > header > p {
+    line-height: 1.75em;
+}
+
+.shop-section > ul {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 20rem);
+    grid-template-rows: 1fr;
+    grid-column-gap: var(--spacing-07);
+    grid-row-gap: var(--spacing-07);
+}

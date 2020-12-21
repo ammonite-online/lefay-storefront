@@ -2,4 +2,6 @@
     padding: var(--spacing-04);
     background-color: var(--palette-tertiary);
     min-height: 33vh;
+    position: relative;
+    z-index: 2;
 }

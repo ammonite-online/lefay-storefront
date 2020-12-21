@@ -1,1 +1,1 @@
-export { Shop as default } from 'features/Page/Shop'
+export { Shop as default, getStaticProps } from 'features/Page/Shop'

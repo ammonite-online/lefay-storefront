@@ -1,0 +1,11 @@
+.page-heading {
+    font-size: var(--type-scale-04);
+    font-weight: var(--type-weight-bold);
+    line-height: 1.5em;
+}
+
+.section-heading {
+    font-size: var(--type-scale-03);
+    font-weight: var(--type-weight-bold);
+    line-height: 1.5em;
+}

@@ -7,6 +7,7 @@
     position: sticky;
     top: 0;
     background-color: var(--palette-greyA);
+    z-index: 3;
 }
 
 .logo {

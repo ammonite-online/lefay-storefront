@@ -1,0 +1,10 @@
+.card {
+    padding: var(--spacing-04);
+}
+
+.card h3 {
+    font-size: var(--type-scale-02);
+    font-weight: var(--type-weight-bold);
+    line-height: 1.5em;
+    padding-bottom: var(--spacing-04);
+}
